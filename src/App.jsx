@@ -6,6 +6,7 @@ function App() {
       <h1 style={{ textAlign: "left" }}>
         Hi, hola, oi, salut.
         <br />
+        <br />
         Kevin here, french frontend developer turned engineering manager and
         living in Brazil. Yes, I speak (almost) 4 languages, my spanish is in
         progress since 2022.
