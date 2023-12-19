@@ -15,7 +15,7 @@ function App() {
         <br />
         <br />
         I currently manage a team of developers, front, back and native at
-        Mercado Livre that works on one of the biggest fintech apps in Latin
+        Mercado Livre that work on one of the biggest fintech apps in Latin
         America, Mercado Pago. More about my career path at <a href="https://www.linkedin.com/in/kevinchevallier/">LinkedIn</a>.
         <br />
         <br />
@@ -29,7 +29,7 @@ function App() {
         link="https://bolao.io"
       />
 
-      <Project description="My Engineering Management related blog. NextJS and Nextra & Vercel." name="EMTalks.xyz" link="https://emtalks.xyz" />
+      <Project description="My Engineering Management related blog. NextJS, Nextra & Vercel." name="EMTalks.xyz" link="https://emtalks.xyz" />
       
       <Project
         description="A tiny webapp to input the infinive of a Spanish verb and receive its full conjugation. Super fast. Vite & Vercel."
@@ -38,7 +38,7 @@ function App() {
       />
 
       <Project
-        description="An ongoing list of documents I use in my engineering management position. Written in english and portuguese. @Notion."
+        description="A list of documents I use in my engineering management job. Written in english and portuguese. @Notion."
         name="EM docs' repo"
         link="https://www.notion.so/Kevin-s-EM-documents-repository-9fe8ea54671b4d57a64f92e8cb34bcbd"
       />
