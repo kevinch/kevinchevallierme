@@ -1,9 +1,11 @@
+import Project from "./components/Project.jsx";
+
 import "./App.css";
 
 function App() {
   return (
-    <>
-      <h1 style={{ textAlign: "left" }}>
+    <div className="app">
+      <div className="intro" style={{marginBottom: '4rem'}}>
         Hi, hola, oi, salut.
         <br />
         <br />
@@ -14,13 +16,33 @@ function App() {
         <br />
         I currently manage a team of developers, front, back and native at
         Mercado Livre that works on one of the biggest fintech apps in Latin
-        America, Mercado Pago. More about my career path at LinkedIn.
+        America, Mercado Pago. More about my career path at <a href="https://www.linkedin.com/in/kevinchevallier/">LinkedIn</a>.
         <br />
         <br />
         Here you will find links to several projects I work on or have
         developed.
-      </h1>
-    </>
+      </div>
+
+      <Project
+        description="A soccer betting app without money involved. Just for fun. React, NodeJS, MongoDB & Heroku."
+        name="Bolao.io"
+        link="https://bolao.io"
+      />
+
+      <Project description="My Engineering Management related blog. NextJS and Nextra & Vercel." name="EMTalks.xyz" link="https://emtalks.xyz" />
+      
+      <Project
+        description="A tiny webapp to input the infinive of a Spanish verb and receive its full conjugation. Super fast. Vite & Vercel."
+        name="Spanish Verbs"
+        link="https://vite-verbs-es.vercel.app/"
+      />
+
+      <Project
+        description="An ongoing list of documents I use in my engineering management position. Written in english and portuguese. @Notion."
+        name="EM docs' repo"
+        link="https://www.notion.so/Kevin-s-EM-documents-repository-9fe8ea54671b4d57a64f92e8cb34bcbd"
+      />
+    </div>
   );
 }
 
