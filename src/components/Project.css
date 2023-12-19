@@ -1,0 +1,8 @@
+.project-container {
+    margin-bottom: 9%;
+    padding-left: 4%;
+}
+
+.project-container:last-child {
+  margin-bottom: 0;
+}
