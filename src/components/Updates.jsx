@@ -14,7 +14,7 @@ function Updates() {
         />
         
         <Update
-          description="1st commit."
+          description="1st commit. Vite & Vercel ftw ✌️"
           date="19/12/2023"
         />
       </div>
