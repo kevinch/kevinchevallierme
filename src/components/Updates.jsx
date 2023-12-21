@@ -10,7 +10,7 @@ function Updates() {
       <div className="updates-list">
         <Update
           description="Adding updates and analytics with Umami."
-          date="dec 21, 2023"
+          date="dec 20, 2023"
         />
 
         <Update
