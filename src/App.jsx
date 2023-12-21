@@ -22,7 +22,7 @@ function App() {
           <br />
           <br />
           Here you will find links to several projects I work on or have
-          developed.
+          developed and some frontend experiments. 
         </div>
         <span className="code-help">{"</Intro>"}</span>
       </div>

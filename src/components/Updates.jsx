@@ -8,14 +8,14 @@ function Updates() {
       <span className="code-help">{"<Updates>"}</span>
 
       <div className="updates-list">
-      <Update
-          description="Adding updates."
-          date="21/12/2023"
+        <Update
+          description="Adding updates and analytics with Umami."
+          date="dec 21, 2023"
         />
-        
+
         <Update
           description="1st commit. Vite & Vercel ftw ✌️"
-          date="19/12/2023"
+          date="dec 19, 2023"
         />
       </div>
 
