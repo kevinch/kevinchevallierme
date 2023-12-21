@@ -1,0 +1,18 @@
+.update-container {
+    margin-bottom: 9%;
+    padding-left: 4%;
+}
+
+.update-container:last-child {
+  margin-bottom: 0;
+}
+
+.update-date {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.update-description {
+    margin-top: 0;
+    margin-bottom: 0;
+}

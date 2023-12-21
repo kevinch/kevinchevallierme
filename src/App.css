@@ -13,3 +13,11 @@
     font-size: 1.2rem;
     color: #878787
 }
+
+.container {
+    margin-bottom: 4rem;
+}
+
+.intro-text {
+    padding-left: 4%;
+}

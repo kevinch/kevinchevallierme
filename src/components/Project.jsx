@@ -1,14 +1,14 @@
-import "./Project.css";
-
 function Project({ name, link, description }) {
   return (
     <div className="project-container">
-      <div className="project-title" style={{marginBottom: '0'}}>
+      <div className="project-title">
         <a style={{ textDecoration: "underline" }} href={link}>
           {name}
         </a>
       </div>
-      <p style={{margin: 0}} className="project-description">{description}</p>
+      <p className="project-description">
+        {description}
+      </p>
     </div>
   );
 }

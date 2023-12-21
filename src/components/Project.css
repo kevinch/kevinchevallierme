@@ -6,3 +6,7 @@
 .project-container:last-child {
   margin-bottom: 0;
 }
+
+.project-description {
+    margin-bottom: 0;
+}
