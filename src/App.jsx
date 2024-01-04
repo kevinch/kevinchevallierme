@@ -13,7 +13,7 @@ function App() {
           <br />
           <br />
           Kevin here, french frontend developer turned engineering manager and
-          living in Brazil. Yes, I speak (almost) 4 languages.
+          living in Brazil.
           <br />
           <br />I currently manage a team of developers, front, back and native
           at Mercado Livre that work on one of the biggest fintech apps in Latin
