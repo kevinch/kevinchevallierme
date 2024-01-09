@@ -21,3 +21,28 @@
 .intro-text {
     padding-left: 4%;
 }
+
+/*  Common */
+.section-container {
+    margin-bottom: 9%;
+    padding-left: 4%;
+}
+
+.section-container:last-child {
+  margin-bottom: 0;
+}
+
+.section-date {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.section-description {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* Projects */
+.project-description {
+    margin-bottom: 0;
+}

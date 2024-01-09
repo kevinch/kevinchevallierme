@@ -1,3 +1,4 @@
+import Books from "./components/Books.jsx";
 import Projects from "./components/Projects.jsx";
 import Updates from "./components/Updates.jsx";
 
@@ -28,6 +29,8 @@ function App() {
       </div>
 
       <Projects />
+
+      <Books />
 
       <Updates />
     </div>

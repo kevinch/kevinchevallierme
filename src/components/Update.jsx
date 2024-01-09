@@ -1,8 +1,8 @@
 function Update({ date, description }) {
   return (
-    <div className="update-container">
-      <p className="update-date">{date}</p>
-      <p className="update-description">{description}</p>
+    <div className="section-container" id="update-container">
+      <p className="section-date">{date}</p>
+      <p className="section-description">{description}</p>
     </div>
   );
 }

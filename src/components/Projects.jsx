@@ -1,7 +1,5 @@
 import Project from "./Project.jsx";
 
-import "./Project.css";
-
 function Projects() {
   return (
     <div className="projects-container container">

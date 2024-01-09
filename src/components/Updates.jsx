@@ -1,13 +1,16 @@
 import Update from "./Update.jsx";
 
-import "./Updates.css";
-
 function Updates() {
   return (
     <div className="updates-container container">
       <span className="code-help">{"<Updates>"}</span>
 
       <div className="updates-list">
+      <Update
+          description="Adding Books section. Things I read that might be of interest for others."
+          date="jan 29, 2024"
+        />
+
         <Update
           description="Adding updates and analytics with Umami."
           date="dec 20, 2023"
