@@ -8,7 +8,7 @@ function Updates() {
       <div className="updates-list">
       <Update
           description="Adding Books section. Things I read that might be of interest for others. From 2024 onwards."
-          date="jan 29, 2024"
+          date="jan 9, 2024"
         />
 
         <Update
