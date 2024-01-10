@@ -10,7 +10,7 @@ function Intro() {
         in Rio de Janeiro, Brazil.
         <br />
         <br />I currently manage a team of developers, front, back, and native
-        at Mercado Livre who work on one of the biggest fintech apps in Latin
+        at Mercado Livre for one of the biggest fintech apps in Latin
         America, Mercado Pago. More about my career path at{" "}
         <a href="https://www.linkedin.com/in/kevinchevallier/">LinkedIn</a>.
         <br />
