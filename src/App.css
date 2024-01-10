@@ -1,11 +1,11 @@
 #root {
-  max-width: 1280px;
+  max-width: 1180px;
   margin: 0 auto;
   padding: 12rem 2rem;
 }
 
 .app {
-  font-size: 190%;
+  font-size: 160%;
   font-weight: 700;
 }
 
@@ -24,7 +24,7 @@
 
 /*  Common */
 .section-container {
-    margin-bottom: 9%;
+    margin-bottom: 7%;
     padding-left: 4%;
 }
 
@@ -40,9 +40,6 @@
 .section-description {
     margin-top: 0;
     margin-bottom: 0;
+    /* font-size: 1.4rem; */
 }
 
-/* Projects */
-.project-description {
-    margin-bottom: 0;
-}

@@ -14,7 +14,7 @@ function App() {
           <br />
           <br />
           Kevin here, french frontend developer turned engineering manager and
-          living in Brazil.
+          living in Rio de Janeiro, Brazil.
           <br />
           <br />I currently manage a team of developers, front, back and native
           at Mercado Livre that work on one of the biggest fintech apps in Latin

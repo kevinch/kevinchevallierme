@@ -6,7 +6,7 @@ function Project({ name, link, description }) {
           {name}
         </a>
       </div>
-      <p className="project-description">
+      <p className="section-description">
         {description}
       </p>
     </div>
