@@ -1,4 +1,4 @@
-import Book from "./Book.jsx";
+import Book from "./Book";
 
 function Books() {
   return (
