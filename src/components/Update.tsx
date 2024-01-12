@@ -1,4 +1,9 @@
-function Update({ date, description }) {
+type Props = {
+  date: string;
+  description: string;
+};
+
+function Update({ date, description }: Props) {
   return (
     <div className="section-container" id="update-container">
       <p className="section-date">{date}</p>

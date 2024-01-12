@@ -1,4 +1,10 @@
-function Project({ name, link, description }) {
+type Props = {
+  name: string;
+  description: string;
+  link: string;
+};
+
+function Project({ name, link, description }: Props) {
   return (
     <div className="section-container" id="project-container">
       <div className="project-title">
@@ -6,9 +12,7 @@ function Project({ name, link, description }) {
           {name}
         </a>
       </div>
-      <p className="section-description">
-        {description}
-      </p>
+      <p className="section-description">{description}</p>
     </div>
   );
 }
