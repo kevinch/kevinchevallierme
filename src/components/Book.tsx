@@ -1,7 +1,7 @@
 type Props = {
   date: string;
   title: string;
-  link: string;
+  link?: string;
 };
 
 function Book({ date, title, link }: Props) {

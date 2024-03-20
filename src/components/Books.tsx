@@ -6,6 +6,7 @@ function Books() {
       <span className="code-help">{"<Books>"}</span>
 
       <div className="books-list">
+        <Book title="Open Veins of Latin America" date="mar 20, 2024" />
         <Book
           title="80,000 hours"
           date="jan 8, 2024"
