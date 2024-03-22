@@ -9,6 +9,12 @@
   font-weight: 700;
 }
 
+@media (max-width:480px)  {
+  .app {
+    font-size: 120%;
+  }
+}
+
 .code-help {
     font-size: 1.2rem;
     color: #878787
@@ -22,7 +28,6 @@
     padding-left: 4%;
 }
 
-/*  Common */
 .section-container {
     margin-bottom: 7%;
     padding-left: 4%;
@@ -40,6 +45,4 @@
 .section-description {
     margin-top: 0;
     margin-bottom: 0;
-    /* font-size: 1.4rem; */
 }
-
