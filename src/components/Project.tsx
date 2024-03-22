@@ -8,9 +8,7 @@ function Project({ name, link, description }: Props) {
   return (
     <div className="section-container" id="project-container">
       <div className="project-title">
-        <a style={{ textDecoration: "underline" }} href={link}>
-          {name}
-        </a>
+        <a href={link}>{name}</a>
       </div>
       <p className="section-description">{description}</p>
     </div>
