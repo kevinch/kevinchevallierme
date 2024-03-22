@@ -6,10 +6,21 @@ function Books() {
       <span className="code-help">{"<Books>"}</span>
 
       <div className="books-list">
-        <Book title="Open Veins of Latin America" date="mar 20, 2024" />
+        <Book
+          title="Engineering Management For The Rest Of Us"
+          date="march 2024"
+          link="https://www.engmanagement.dev/"
+        />
+
+        <Book
+          title="Open Veins of Latin America"
+          date="march 2024"
+          link="https://en.wikipedia.org/wiki/Open_Veins_of_Latin_America"
+        />
+
         <Book
           title="80,000 hours"
-          date="jan 8, 2024"
+          date="january 2024"
           link="https://80000hours.org/wp-content/uploads/2023/08/80K_HOURS_final.pdf"
         />
       </div>
