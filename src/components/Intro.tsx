@@ -5,8 +5,8 @@ function Intro() {
       <div className="intro-text">
         <p>Hi, hola, oi, salut.</p>
         <p>
-          Kevin here, french frontend developer turned engineering manager
-          living in Rio de Janeiro, Brazil.
+          Kevin here, french frontend engineer and engineering manager living in
+          Rio de Janeiro, Brazil.
         </p>
 
         <p>My past experiences include:</p>
@@ -60,7 +60,7 @@ function Intro() {
       </div>
       <span className="code-help">{"</Intro>"}</span>
     </div>
-  );
+  )
 }
 
-export default Intro;
+export default Intro

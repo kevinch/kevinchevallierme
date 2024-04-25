@@ -1,4 +1,4 @@
-import Book from "./Book";
+import Book from "./Book"
 
 function Books() {
   return (
@@ -6,6 +6,12 @@ function Books() {
       <span className="code-help">{"<Books>"}</span>
 
       <div className="books-list">
+        <Book
+          title="The Software Engineer's Guidebook"
+          date="april 2024"
+          link="https://www.engguidebook.com/?ref=blog.pragmaticengineer.com"
+        />
+
         <Book
           title="Engineering Management For The Rest Of Us"
           date="march 2024"
@@ -27,7 +33,7 @@ function Books() {
 
       <span className="code-help">{"</Books>"}</span>
     </div>
-  );
+  )
 }
 
-export default Books;
+export default Books
