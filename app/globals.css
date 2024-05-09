@@ -1,7 +1,11 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
 :root {
   font-family: "Inconsolata", monospace;
   line-height: 1.5;
-  font-weight: 400;
+  /* font-weight: 100; */
 
   color-scheme: light dark;
 
@@ -21,7 +25,6 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
 }
@@ -38,7 +41,6 @@ body {
   :root {
     color: #202020;
     background-color: #fafafa;
-    /* animation: colorchangeLight 15s ease infinite; */
   }
 }
 

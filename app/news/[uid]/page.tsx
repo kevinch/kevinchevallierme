@@ -1,17 +1,24 @@
 import { createClient } from "@/prismicio"
+import { PrismicRichText } from "@prismicio/react"
+import { formatDateNews } from "@/app/lib/utils"
+import Nav from "@/components/Nav"
 
 async function NewsPost({ params }: any) {
   const client = createClient()
-  const document = await client.getByUID("news", params.uid)
+  const document = await client.getByUID("blog", params.uid)
 
   console.log({ document })
 
   return (
     <div>
-      <pre>{JSON.stringify(document, null, 2)}</pre>
+      <Nav />
 
-      {/* <h1>{document.data.title[0]?.text}</h1>
-      <div>{document.data.content[0]?.text}</div> */}
+      <h2 className="text-2xl">{document.data.title}</h2>
+      <p className="text-sm mb-10 text-slate-500">
+        {formatDateNews(document.first_publication_date)}
+      </p>
+
+      <PrismicRichText field={document.data.content} />
     </div>
   )
 }
