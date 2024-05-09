@@ -1,8 +1,9 @@
 import type { Metadata } from "next"
-// import Script from "next/script"
-// import "./globals.css"
+import { Inconsolata } from "next/font/google"
+import Script from "next/script"
+import "./globals.css"
 
-// const Plex = IBM_Plex_Sans({ weight: "400", subsets: ["latin"] })
+const typography = Inconsolata({ weight: "600", subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "Kevin Chevallier",
@@ -16,19 +17,21 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
-        <div className="container mx-auto px-4">
-          {/* <Header /> */}
-          {children}
-          {/* <Footer /> */}
+      <body className={typography.className}>
+        <div id="root">
+          <div className="app">
+            {/* <Header /> */}
+            {children}
+            {/* <Footer /> */}
+          </div>
         </div>
       </body>
 
-      {/* // <Script
-        //   async
-        //   src="https://analytics.us.umami.is/script.js"
-        //   data-website-id={process.env.UMAMI_ID}
-        // /> */}
+      <Script
+        async
+        src="https://analytics.us.umami.is/script.js"
+        data-website-id={process.env.UMAMI_ID}
+      />
     </html>
   )
 }
