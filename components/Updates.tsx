@@ -1,4 +1,4 @@
-import Update from "./Update.jsx";
+import Update from "./Update"
 
 function Updates() {
   return (
@@ -26,7 +26,7 @@ function Updates() {
 
       <span className="code-help">{"</Updates>"}</span>
     </div>
-  );
+  )
 }
 
-export default Updates;
+export default Updates

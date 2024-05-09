@@ -1,4 +1,4 @@
-import Project from "./Project.jsx";
+import Project from "./Project"
 
 function Projects() {
   return (
@@ -33,7 +33,7 @@ function Projects() {
 
       <span className="code-help">{"</Projects>"}</span>
     </div>
-  );
+  )
 }
 
-export default Projects;
+export default Projects
