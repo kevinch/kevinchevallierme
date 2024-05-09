@@ -1,3 +1,3 @@
 # kevinchevallier.me
 
-My personal website with Vite and NextJS hosted at Vercel.
+My personal website with NextJS, hosted at Vercel.
