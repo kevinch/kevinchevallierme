@@ -7,15 +7,20 @@ async function NewsPost({ params }: any) {
   const client = createClient()
   const document = await client.getByUID("blog", params.uid)
 
-  console.log({ document })
-
   return (
-    <div>
+    <div className="section-container">
       <Nav />
 
-      <h2 className="text-2xl">{document.data.title}</h2>
-      <p className="text-sm mb-10 text-slate-500">
+      <h1 style={{ marginBottom: "0" }}>{document.data.title}</h1>
+
+      <p
+        className="text-sm mb-10 text-slate-500"
+        style={{ color: "#666", fontSize: "1rem", marginBottom: "10%" }}
+      >
+        Published:&nbsp;
         {formatDateNews(document.first_publication_date)}
+        &nbsp;-&nbsp;Last edited:&nbsp;
+        {formatDateNews(document.last_publication_date)}
       </p>
 
       <PrismicRichText field={document.data.content} />

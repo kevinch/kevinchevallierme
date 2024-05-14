@@ -11,6 +11,9 @@ function Nav() {
       <Link style={styleObkj} href={"/news"}>
         News
       </Link>
+      <Link style={styleObkj} href={"/books"}>
+        Books
+      </Link>
     </nav>
   )
 }

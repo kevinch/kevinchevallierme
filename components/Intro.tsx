@@ -5,8 +5,8 @@ function Intro() {
       <div className="intro-text">
         <p>Hi, hola, oi, salut.</p>
         <p>
-          Kevin here, french frontend engineer and engineering manager living in
-          Rio de Janeiro, Brazil.
+          Kevin here, frontend software engineer and engineering manager born in
+          France and living in Rio de Janeiro, Brazil.
         </p>
 
         <p>My past experiences include:</p>

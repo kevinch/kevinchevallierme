@@ -84,6 +84,7 @@ body {
   max-width: 1180px;
   margin: 0 auto;
   padding: 12rem 2rem;
+  width: 100%;
 }
 
 .app {
