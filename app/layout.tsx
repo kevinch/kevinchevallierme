@@ -19,11 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={typography.className}>
         <div id="root">
-          <div className="app">
-            {/* <Header /> */}
-            {children}
-            {/* <Footer /> */}
-          </div>
+          <div className="app">{children}</div>
         </div>
       </body>
 

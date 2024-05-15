@@ -1,20 +1,40 @@
-// import { createClient } from "@/prismicio"
-// import { PrismicRichText } from "@prismicio/react"
-// import PageTitle from "../components/pageTitle"
-// import { formatDateNews } from "../lib/utils"
+import { createClient } from "@/prismicio"
 import Link from "next/link"
 
-async function News() {
-  // const client = createClient()
-  // const documents = await client.getAllByType("news")
+import Nav from "@/components/Nav"
+import { formatDateNews } from "../lib/utils"
 
-  // console.log(documents[0].data)
+async function News() {
+  const client = createClient()
+  const documents = await client.getAllByType("blog")
 
   return (
     <div>
-      <h1>News</h1>
-      {/* <PageTitle center={true}>News</PageTitle> */}
-      <Link href={"/"}>Home</Link>
+      <Nav />
+
+      <div className="news-container container">
+        <span className="code-help">{"<News>"}</span>
+
+        <div className="news-list">
+          {documents.map((document) => (
+            <div className="mb-6 section-container" key={document.uid}>
+              <h2 className="text-2xl">
+                <Link href={`/news/${document.uid}`}>
+                  {document.data.title}
+                </Link>
+              </h2>
+              <p
+                className="text-sm mb-10 text-slate-500"
+                style={{ color: "#666", fontSize: "1rem" }}
+              >
+                {formatDateNews(document.first_publication_date)}
+              </p>
+            </div>
+          ))}
+        </div>
+
+        <span className="code-help">{"</News>"}</span>
+      </div>
     </div>
   )
 }
