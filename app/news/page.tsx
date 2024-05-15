@@ -18,11 +18,7 @@ async function News() {
         <div className="news-list">
           {documents.map((document) => (
             <div className="mb-6 section-container" key={document.uid}>
-              <h2 className="text-2xl">
-                <Link href={`/news/${document.uid}`}>
-                  {document.data.title}
-                </Link>
-              </h2>
+              <Link href={`/news/${document.uid}`}>{document.data.title}</Link>
               <p
                 className="text-sm mb-10 text-slate-500"
                 style={{ color: "#666", fontSize: "1rem" }}

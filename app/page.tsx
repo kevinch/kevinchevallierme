@@ -1,5 +1,4 @@
 import Intro from "@/components/Intro"
-import Projects from "@/components/Projects"
 import Nav from "@/components/Nav"
 
 function Home() {
@@ -7,7 +6,6 @@ function Home() {
     <>
       <Nav />
       <Intro />
-      <Projects />
     </>
   )
 }
