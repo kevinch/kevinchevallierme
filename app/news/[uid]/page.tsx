@@ -20,11 +20,11 @@ async function NewsPost({ params }: any) {
         >
           Published:&nbsp;
           {formatDateNews(document.first_publication_date)}
-          {document.first_publication_date! ==
+          {document.first_publication_date !==
             document.last_publication_date && (
             <>
               &nbsp;-&nbsp;Last edited:&nbsp;
-              formatDateNews(document.last_publication_date)
+              {formatDateNews(document.last_publication_date)}
             </>
           )}
         </p>
