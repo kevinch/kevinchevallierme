@@ -9,7 +9,14 @@ function Intro() {
           France and living in Rio de Janeiro, Brazil.
         </p>
 
-        <p>My past experiences include:</p>
+        <p>
+          Current position:
+          <a style={{ color: "#E31C58" }} href="https://vtex.com/us-en/">
+            VTEX
+          </a>
+        </p>
+
+        <p>My professional experience includes:</p>
         <ul>
           <li>
             <a
@@ -42,9 +49,13 @@ function Intro() {
             , a global digital agency where I coded projects for Brazilian and
             international clients.
           </li>
+          <li>
+            Working as a freelancer, in a startup, a small digital agency and a
+            book publishing company.
+          </li>
         </ul>
         <p>
-          More about my career path at{" "}
+          Check my complete career path at{" "}
           <a
             style={{ color: "#0a66c2" }}
             href="https://www.linkedin.com/in/kevinchevallier/"
