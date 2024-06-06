@@ -49,10 +49,6 @@ function Intro() {
             , a global digital agency where I coded projects for Brazilian and
             international clients.
           </li>
-          <li>
-            Working as a freelancer, in a startup, a small digital agency and a
-            book publishing company.
-          </li>
         </ul>
         <p>
           Check my complete career path at{" "}
