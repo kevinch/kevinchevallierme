@@ -5,11 +5,10 @@ type Props = {
   title: string
   link?: string
   language: string
-  pages?: number
   kind?: string
 }
 
-function Book({ date, title, link, language, pages, kind }: Props) {
+function Book({ date, title, link, language, kind }: Props) {
   const formatedDate = new Date(date)
 
   return (
@@ -20,7 +19,6 @@ function Book({ date, title, link, language, pages, kind }: Props) {
       <p style={{ color: "#666", fontSize: "1rem" }}>
         {format(formatedDate, "MMMM yyyy")}
         &nbsp;-&nbsp;{language}
-        {pages && ` - ${pages} pages`}
         {kind && ` - ${kind}`}
       </p>
     </div>
