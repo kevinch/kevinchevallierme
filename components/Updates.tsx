@@ -6,6 +6,8 @@ function Updates() {
       <span className="code-help">{"<Updates>"}</span>
 
       <div className="updates-list">
+        <Update description="Removed Vite for NextJS" date="july 25, 2024" />
+
         <Update description="Updated jsx to tsx." date="jan 11, 2024" />
 
         <Update
