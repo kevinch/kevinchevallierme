@@ -7,6 +7,14 @@ function Books() {
 
       <div className="books-list">
         <Book
+          title="Incidents in the Life of a Slave Girl"
+          kind="Slave narrative"
+          language="english"
+          date="july 2024"
+          link="https://en.wikipedia.org/wiki/Incidents_in_the_Life_of_a_Slave_Girl"
+        />
+
+        <Book
           title="Fulgrim"
           kind="Fantasy, Warhammer 40k"
           language="french"
