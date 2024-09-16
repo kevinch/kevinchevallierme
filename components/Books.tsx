@@ -7,6 +7,14 @@ function Books() {
 
       <div className="books-list">
         <Book
+          title="Regenesis: Feeding the World without Devouring the Planet"
+          kind="Environment, science, food, sustainability"
+          language="english"
+          date="september 2024"
+          link="https://www.monbiot.com/books/"
+        />
+
+        <Book
           title="Incidents in the Life of a Slave Girl"
           kind="Slave narrative"
           language="english"
