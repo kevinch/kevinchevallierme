@@ -7,6 +7,14 @@ function Books() {
 
       <div className="books-list">
         <Book
+          title="Le Retour des Anges"
+          kind="Fantasy, Warhammer 40k"
+          language="french"
+          date="october 2024"
+          link="https://www.blacklibrary.com/french/the-horus-heresy-novels/le-retour-des-anges-ebook.html"
+        />
+
+        <Book
           title="Regenesis: Feeding the World without Devouring the Planet"
           kind="Environment, science, food, sustainability"
           language="english"
