@@ -7,6 +7,14 @@ function Books() {
 
       <div className="books-list">
         <Book
+          title="I Survived to Tell"
+          kind="holocaust memoir"
+          language="english"
+          date="october 2024"
+          link="https://www.goodreads.com/author/list/22179373.Noach_Natan_elechower"
+        />
+
+        <Book
           title="Le Retour des Anges"
           kind="Fantasy, Warhammer 40k"
           language="french"
