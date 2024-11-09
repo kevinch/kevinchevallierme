@@ -7,6 +7,14 @@ function Books() {
 
       <div className="books-list">
         <Book
+          title="Chernobyl 01:23:40"
+          kind="history"
+          language="english"
+          date="november 2024"
+          link="https://www.amazon.com.br/Chernobyl-01-23-Andrew-Leatherbarrow/dp/8525438855"
+        />
+
+        <Book
           title="I Survived to Tell"
           kind="holocaust memoir"
           language="english"
