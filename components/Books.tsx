@@ -7,8 +7,16 @@ function Books() {
 
       <div className="books-list">
         <Book
+          title="The Hundred Years' War on Palestine"
+          kind="History"
+          language="english"
+          date="november 2024"
+          link="https://en.wikipedia.org/wiki/The_Hundred_Years%27_War_on_Palestine"
+        />
+
+        <Book
           title="Chernobyl 01:23:40"
-          kind="history"
+          kind="History"
           language="english"
           date="november 2024"
           link="https://www.amazon.com.br/Chernobyl-01-23-Andrew-Leatherbarrow/dp/8525438855"
@@ -16,7 +24,7 @@ function Books() {
 
         <Book
           title="I Survived to Tell"
-          kind="holocaust memoir"
+          kind="Holocaust memoir"
           language="english"
           date="october 2024"
           link="https://www.goodreads.com/author/list/22179373.Noach_Natan_elechower"
@@ -72,7 +80,7 @@ function Books() {
 
         <Book
           title="Les Misérables"
-          kind="French classic"
+          kind="Epic novel"
           language="french"
           date="may 2024"
           link="https://fr.wikipedia.org/wiki/Les_Mis%C3%A9rables"
@@ -80,7 +88,7 @@ function Books() {
 
         <Book
           title="The Software Engineer's Guidebook"
-          kind="Engineering"
+          kind="Software engineering"
           language="english"
           date="april 2024"
           link="https://www.engguidebook.com/?ref=blog.pragmaticengineer.com"
