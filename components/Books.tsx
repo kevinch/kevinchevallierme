@@ -7,6 +7,22 @@ function Books() {
 
       <div className="books-list">
         <Book
+          title="A Time to Die: The Untold Story of the Kursk Tragedy"
+          kind="Military history"
+          language="english"
+          date="december 2024"
+          link="https://www.goodreads.com/book/show/452207.A_Time_to_Die"
+        />
+
+        <Book
+          title="Légion"
+          kind="Fantasy, Warhammer 40k"
+          language="french"
+          date="december 2024"
+          link="https://www.blacklibrary.com/french/the-horus-heresy-novels/legion-ebook-fr.html"
+        />
+
+        <Book
           title="The Hundred Years' War on Palestine"
           kind="History"
           language="english"
