@@ -3,7 +3,24 @@ import Book from "./Book"
 function Books() {
   return (
     <div className="books-container container">
-      <span className="code-help">{"<Books>"}</span>
+      <span className="code-help">{"<Books_2025>"}</span>
+
+      <div className="books-list">
+        <Book
+          title="My Life as an Explorer"
+          kind="Adventure, travel"
+          language="english"
+          date="january 2025"
+          link="https://www.goodreads.com/book/show/4799293-my-life-as-an-explorer"
+          cover="/images/my-life-an-an-explorer.jpg"
+        />
+      </div>
+
+      <span className="code-help">{"</Books_2025>"}</span>
+
+      <div className="spacer" style={{ padding: "2rem 0" }} />
+
+      <span className="code-help">{"<Books_2024>"}</span>
 
       <div className="books-list">
         <Book
@@ -12,6 +29,7 @@ function Books() {
           language="english"
           date="december 2024"
           link="https://www.goodreads.com/book/show/452207.A_Time_to_Die"
+          cover="/images/a-time-to-die.jpg"
         />
 
         <Book
@@ -20,6 +38,7 @@ function Books() {
           language="french"
           date="december 2024"
           link="https://www.blacklibrary.com/french/the-horus-heresy-novels/legion-ebook-fr.html"
+          cover="/images/legion.jpg"
         />
 
         <Book
@@ -28,6 +47,7 @@ function Books() {
           language="english"
           date="november 2024"
           link="https://en.wikipedia.org/wiki/The_Hundred_Years%27_War_on_Palestine"
+          cover="/images/the-hundred-years-war-on-palestine.jpg"
         />
 
         <Book
@@ -36,6 +56,7 @@ function Books() {
           language="english"
           date="november 2024"
           link="https://www.amazon.com.br/Chernobyl-01-23-Andrew-Leatherbarrow/dp/8525438855"
+          cover="/images/chernobyl-01-23-40.jpg"
         />
 
         <Book
@@ -43,7 +64,8 @@ function Books() {
           kind="Holocaust memoir"
           language="english"
           date="october 2024"
-          link="https://www.goodreads.com/author/list/22179373.Noach_Natan_elechower"
+          link="https://www.goodreads.com/book/show/60215066-i-survived-to-tell"
+          cover="/images/i-survived-to-tell.jpg"
         />
 
         <Book
@@ -52,6 +74,7 @@ function Books() {
           language="french"
           date="october 2024"
           link="https://www.blacklibrary.com/french/the-horus-heresy-novels/le-retour-des-anges-ebook.html"
+          cover="/images/le-retour-des-anges.jpg"
         />
 
         <Book
@@ -60,6 +83,7 @@ function Books() {
           language="english"
           date="september 2024"
           link="https://www.monbiot.com/books/"
+          cover="/images/regenesis.jpg"
         />
 
         <Book
@@ -68,6 +92,7 @@ function Books() {
           language="english"
           date="july 2024"
           link="https://en.wikipedia.org/wiki/Incidents_in_the_Life_of_a_Slave_Girl"
+          cover="/images/incidents-in-the-life-of-a-slave-girl.jpg"
         />
 
         <Book
@@ -76,6 +101,7 @@ function Books() {
           language="french"
           date="july 2024"
           link="https://www.blacklibrary.com/french/the-horus-heresy-novels/fulgrim-ebook-french.html"
+          cover="/images/fulgrim.jpg"
         />
 
         <Book
@@ -84,6 +110,7 @@ function Books() {
           language="english"
           date="july 2024"
           link="https://www.goodreads.com/book/show/12665183-atlantis-beneath-the-ice"
+          cover="/images/atlantis-beneath-the-ice.jpg"
         />
 
         <Book
@@ -92,6 +119,7 @@ function Books() {
           language="french"
           date="june 2024"
           link="https://www.blacklibrary.com/all-products/fr-flight-of-the-eisenstein-ebook.html"
+          cover="/images/le-fuite-de-l-einsenstein.jpg"
         />
 
         <Book
@@ -100,6 +128,7 @@ function Books() {
           language="french"
           date="may 2024"
           link="https://fr.wikipedia.org/wiki/Les_Mis%C3%A9rables"
+          cover="/images/les-miserables.jpg"
         />
 
         <Book
@@ -108,6 +137,7 @@ function Books() {
           language="english"
           date="april 2024"
           link="https://www.engguidebook.com/?ref=blog.pragmaticengineer.com"
+          cover="/images/the-software-engineers-guidebook.jpg"
         />
 
         <Book
@@ -116,6 +146,7 @@ function Books() {
           language="english"
           date="march 2024"
           link="https://www.engmanagement.dev/"
+          cover="/images/engineering-management-for-the-rest-of-us.jpg"
         />
 
         <Book
@@ -124,6 +155,7 @@ function Books() {
           language="portuguese"
           date="march 2024"
           link="https://pt.wikipedia.org/wiki/As_Veias_Abertas_da_Am%C3%A9rica_Latina"
+          cover="/images/as-veias-abertas-da-america-latina.jpg"
         />
 
         <Book
@@ -132,10 +164,11 @@ function Books() {
           language="english"
           date="january 2024"
           link="https://80000hours.org/wp-content/uploads/2023/08/80K_HOURS_final.pdf"
+          cover="/images/80000-hours.jpg"
         />
       </div>
 
-      <span className="code-help">{"</Books>"}</span>
+      <span className="code-help">{"</Books_2024>"}</span>
     </div>
   )
 }
