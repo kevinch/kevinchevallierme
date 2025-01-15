@@ -1,6 +1,6 @@
-/* @tailwind base;
+@tailwind base;
 @tailwind components;
-@tailwind utilities; */
+@tailwind utilities;
 
 :root {
   font-family: "Inconsolata", monospace;
@@ -20,6 +20,17 @@ a {
 }
 a:hover {
   text-decoration: none;
+}
+
+p {
+  margin: 1rem 0;
+}
+
+ul {
+  margin-left: 2rem;
+  li {
+    list-style: disc;
+  }
 }
 
 body {
