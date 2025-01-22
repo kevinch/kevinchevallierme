@@ -7,6 +7,15 @@ function Books() {
 
       <div className="books-list">
         <Book
+          title="Mechanicum"
+          kind="Fantasy, Warhammer 40k"
+          language="french"
+          date="january 2025"
+          link="https://www.blacklibrary.com/french/the-horus-heresy-novels/mechanicum-fre.html"
+          cover="/images/mechanicum.jpg"
+        />
+
+        <Book
           title="My Life as an Explorer"
           kind="Adventure, travel"
           language="english"
