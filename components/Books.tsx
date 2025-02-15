@@ -7,6 +7,24 @@ function Books() {
 
       <div className="books-list">
         <Book
+          title="Le Colonel Chabert"
+          kind="Classic"
+          language="french"
+          date="february 2025"
+          link="https://www.goodreads.com/book/show/159434.Le_Colonel_Chabert"
+          cover="/images/le-colonel-chabert.jpg"
+        />
+
+        <Book
+          title="K2: The Story of the Savage Mountain"
+          kind="Mountaineering"
+          language="english"
+          date="february 2025"
+          link="https://www.goodreads.com/book/show/112041.K2"
+          cover="/images/k2-the-savage-mountain.jpg"
+        />
+
+        <Book
           title="Mechanicum"
           kind="Fantasy, Warhammer 40k"
           language="french"
