@@ -7,6 +7,22 @@ function Books() {
 
       <div className="books-list">
         <Book
+          title="Le Horla"
+          kind="Classic"
+          language="french"
+          date="march 2025"
+          cover="/images/le-horla.jpg"
+        />
+
+        <Book
+          title="Le dieu blanc est mort à Diên Biên Phu"
+          kind="History"
+          language="french"
+          date="march 2025"
+          cover="/images/le-dieu-blanc.jpg"
+        />
+
+        <Book
           title="Le Colonel Chabert"
           kind="Classic"
           language="french"

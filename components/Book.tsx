@@ -29,7 +29,8 @@ function Book({ date, title, link, language, kind, cover }: Props) {
         )}
         <div>
           <p className="section-description">
-            {link ? <a href={link}>{title}</a> : title}
+            {/* {link ? <a href={link}>{title}</a> : title} */}
+            {title}
           </p>
           <p style={{ color: "#666", fontSize: "1rem" }}>
             {format(formatedDate, "MMMM yyyy")}
