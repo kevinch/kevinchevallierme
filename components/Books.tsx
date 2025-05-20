@@ -7,6 +7,14 @@ function Books() {
 
       <div className="books-list">
         <Book
+          title="Vingt Mille Lieues sous les mers"
+          kind="Classic"
+          language="french"
+          date="may 2025"
+          cover="/images/vingt-mille-lieues-sous-mers.jpg"
+        />
+
+        <Book
           title="Le Horla"
           kind="Classic"
           language="french"
