@@ -24,7 +24,7 @@ function Book({ date, title, link, language, kind, cover }: Props) {
             height={0}
             sizes="100vw"
             style={{ width: "80px", height: "auto" }}
-            className="mr-4 drop-shadow-md border-white border-4 rounded-sm hover:scale-150 transition ease-out"
+            className="mr-4 drop-shadow-md border-white border-4 rounded-sm hover:scale-150 transition ease-out duration-500"
           />
         )}
         <div>
@@ -35,7 +35,7 @@ function Book({ date, title, link, language, kind, cover }: Props) {
           <p style={{ color: "#666", fontSize: "1rem" }}>
             {format(formatedDate, "MMMM yyyy")}
             &nbsp;-&nbsp;{language}
-            {kind && ` - ${kind}`}
+            {kind && ` - ${kind.toLowerCase()}`}
           </p>
         </div>
       </div>

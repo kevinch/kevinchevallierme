@@ -7,6 +7,13 @@ function Books() {
 
       <div className="books-list">
         <Book
+          title="Contos Inacabados"
+          kind="fantasy"
+          language="portuguese"
+          date="may 2025"
+          cover="/images/contos-inacabados.jpg"
+        />
+        <Book
           title="Vingt Mille Lieues sous les mers"
           kind="Classic"
           language="french"
