@@ -7,6 +7,13 @@ function Books() {
 
       <div className="books-list">
         <Book
+          title="Le Jour le plus fou"
+          kind="history"
+          language="french"
+          date="june 2025"
+          cover="/images/le-jour-le-plus-fou.jpg"
+        />
+        <Book
           title="Contos Inacabados"
           kind="fantasy"
           language="portuguese"
