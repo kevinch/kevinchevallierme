@@ -7,6 +7,27 @@ function Books() {
 
       <div className="books-list">
         <Book
+          title="Le monde sans fin"
+          kind=" Graphic novel, climat change"
+          language="french"
+          date="august 2025"
+          cover="/images/le-monde-sans-fin.jpg"
+        />
+        <Book
+          title="Ainda estou aqui"
+          kind="history, memoir"
+          language="portuguese"
+          date="july 2025"
+          cover="/images/ainda-estou-aqui.jpg"
+        />
+        <Book
+          title="La bataille des abysses"
+          kind="Fantasy, Warhammer 40k"
+          language="french"
+          date="july 2025"
+          cover="/images/la-bataille-des-abysses.jpg"
+        />
+        <Book
           title="Le Jour le plus fou"
           kind="history"
           language="french"
