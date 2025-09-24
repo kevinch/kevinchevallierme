@@ -7,8 +7,15 @@ function Books() {
 
       <div className="books-list">
         <Book
+          title="Mon traître"
+          kind="Fiction"
+          language="french"
+          date="september 2025"
+          cover="/images/mon-traitre.jpg"
+        />
+        <Book
           title="Le monde sans fin"
-          kind=" Graphic novel, climat change"
+          kind="Graphic novel, climat change"
           language="french"
           date="august 2025"
           cover="/images/le-monde-sans-fin.jpg"
