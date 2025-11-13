@@ -1,4 +1,4 @@
-import Book from "./Book"
+import Book from "./Book";
 
 function Books() {
   return (
@@ -6,6 +6,13 @@ function Books() {
       <span className="code-help">{"<Books_2025>"}</span>
 
       <div className="books-list">
+        <Book
+          title="Carnets de guerre. De Moscou à Berlin, 1941-1945"
+          kind="History"
+          language="french"
+          date="november 2025"
+          cover="/images/carnets-de-guerre.jpg"
+        />
         <Book
           title="Mon traître"
           kind="Fiction"
@@ -263,7 +270,7 @@ function Books() {
 
       <span className="code-help">{"</Books_2024>"}</span>
     </div>
-  )
+  );
 }
 
-export default Books
+export default Books;
