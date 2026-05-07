@@ -10,7 +10,7 @@ function Books() {
           kind="Fantasy, Warhammer 40k"
           language="french"
           date="may 2026"
-          link="https://www.blacklibrary.com/french/the-horus-heresy-novels/fr-chronicles-of-heresy-ebook.html"
+          cover="/images/chroniques-de-lheresie.jpg"
         />
         <Book
           title="Chomsky & Mujica: sobrevivendo ao século XXI"
