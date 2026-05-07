@@ -1,17 +1,17 @@
-import { format } from "date-fns"
-import Image from "next/image"
+import { format } from "date-fns";
+import Image from "next/image";
 
 type Props = {
-  date: string
-  title: string
-  link?: string
-  language: string
-  kind?: string
-  cover?: string
-}
+  date: string;
+  title: string;
+  link?: string;
+  language: string;
+  kind?: string;
+  cover?: string;
+};
 
 function Book({ date, title, link, language, kind, cover }: Props) {
-  const formatedDate = new Date(date)
+  const formatedDate = new Date(date);
 
   return (
     <div className="section-container">
@@ -40,7 +40,7 @@ function Book({ date, title, link, language, kind, cover }: Props) {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default Book
+export default Book;

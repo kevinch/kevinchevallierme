@@ -6,6 +6,13 @@ function Books() {
       <span className="code-help">{"<Books_2026>"}</span>
       <div className="books-list">
         <Book
+          title="Chroniques de l'Hérésie"
+          kind="Fantasy, Warhammer 40k"
+          language="french"
+          date="may 2026"
+          cover="/images/chroniques-de-lheresie.jpg"
+        />
+        <Book
           title="Chomsky & Mujica: sobrevivendo ao século XXI"
           kind="Politics"
           language="portuguese"
