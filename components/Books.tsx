@@ -13,6 +13,13 @@ function Books() {
           cover="/images/chroniques-de-lheresie.jpg"
         />
         <Book
+          title="Le Compte de Monte-Cristo"
+          kind="Classic"
+          language="french"
+          date="april 2026"
+          cover="/images/compte-monte-cristo.jpg"
+        />
+        <Book
           title="Chomsky & Mujica: sobrevivendo ao século XXI"
           kind="Politics"
           language="portuguese"
