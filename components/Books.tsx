@@ -6,6 +6,13 @@ function Books() {
       <span className="code-help">{"<Books_2026>"}</span>
       <div className="books-list">
         <Book
+          title="Chroniques de l'Hérésie"
+          kind="Fantasy, Warhammer 40k"
+          language="french"
+          date="may 2026"
+          link="https://www.blacklibrary.com/french/the-horus-heresy-novels/fr-chronicles-of-heresy-ebook.html"
+        />
+        <Book
           title="Chomsky & Mujica: sobrevivendo ao século XXI"
           kind="Politics"
           language="portuguese"
