@@ -10,7 +10,7 @@ type Props = {
   cover?: string;
 };
 
-function Book({ date, title, link, language, kind, cover }: Props) {
+function Book({ date, title, language, kind, cover }: Props) {
   const formatedDate = new Date(date);
 
   return (
