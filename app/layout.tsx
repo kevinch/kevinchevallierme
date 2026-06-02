@@ -25,7 +25,7 @@ export default function RootLayout({
 
       <Script
         async
-        src="https://analytics.us.umami.is/script.js"
+        src="https://cloud.umami.is/script.js"
         data-website-id={process.env.UMAMI_ID}
       />
     </html>
