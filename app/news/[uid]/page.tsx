@@ -3,7 +3,7 @@ import { PrismicRichText } from "@prismicio/react"
 import { formatDateNews } from "@/app/lib/utils"
 import Nav from "@/components/Nav"
 
-async function NewsPost({ params }: any) {
+async function NewsPost({ params }: { params: { uid: string } }) {
   const client = createClient()
   const document = await client.getByUID("blog", params.uid)
 
