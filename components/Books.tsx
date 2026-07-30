@@ -6,6 +6,13 @@ function Books() {
       <span className="code-help">{"<Books_2026>"}</span>
       <div className="books-list">
         <Book
+          title="Les Anges Déchus"
+          kind="Fantasy, Warhammer 40k"
+          language="french"
+          date="july 2026"
+          cover="/images/les-anges-dechus.jpg"
+        />
+        <Book
           title="Valmy: La fin de la Vieille France"
           kind="History"
           language="french"
