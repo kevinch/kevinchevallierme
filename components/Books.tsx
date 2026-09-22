@@ -6,6 +6,14 @@ function Books() {
       <span className="code-help">{"<Books_2026>"}</span>
       <div className="books-list">
         <Book
+          title="Marching Powder"
+          kind="True crime, memoir"
+          language="english"
+          date="september 2026"
+          link="https://www.goodreads.com/book/show/148493492-marching-powder-paperback-by-author-rusty-young"
+          cover="/images/marching-powder.jpg"
+        />
+        <Book
           title="Vibe Coding"
           kind="Software engineering"
           language="english"
