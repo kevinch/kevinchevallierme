@@ -6,6 +6,38 @@ function Books() {
       <span className="code-help">{"<Books_2026>"}</span>
       <div className="books-list">
         <Book
+          title="Bom dia, inverno"
+          kind="Travel, memoir"
+          language="portuguese"
+          date="october 2026"
+          link="https://www.goodreads.com/book/show/249872831-bom-dia-inverno"
+          cover="/images/bom-dia-inverno.jpg"
+        />
+        <Book
+          title="La chute de Gondolin"
+          kind="Fantasy"
+          language="french"
+          date="october 2026"
+          link="https://www.goodreads.com/book/show/45360108-la-chute-de-gondolin"
+          cover="/images/la-chute-de-gondolin.jpg"
+        />
+        <Book
+          title="Beren et Lúthien"
+          kind="Fantasy"
+          language="french"
+          date="october 2026"
+          link="https://www.goodreads.com/book/show/36426976-beren-et-l-thien"
+          cover="/images/beren-et-luthien.jpg"
+        />
+        <Book
+          title="O livro dos barcos"
+          kind="Graphic novel, travel"
+          language="portuguese"
+          date="october 2026"
+          link="https://www.goodreads.com/book/show/113500481-o-livro-dos-barcos"
+          cover="/images/o-livro-dos-barcos.jpg"
+        />
+        <Book
           title="Marching Powder"
           kind="True crime, memoir"
           language="english"
