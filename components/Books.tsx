@@ -6,6 +6,14 @@ function Books() {
       <span className="code-help">{"<Books_2026>"}</span>
       <div className="books-list">
         <Book
+          title="Quem manda no mundo?"
+          kind="Politics, essays"
+          language="portuguese"
+          date="november 2026"
+          link="https://www.goodreads.com/book/show/37801190"
+          cover="/images/quem-manda-no-mundo.jpg"
+        />
+        <Book
           title="Bom dia, inverno"
           kind="Travel, memoir"
           language="portuguese"

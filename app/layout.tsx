@@ -3,7 +3,11 @@ import { Inconsolata } from "next/font/google"
 import Script from "next/script"
 import "./globals.css"
 
-const typography = Inconsolata({ weight: "600", subsets: ["latin"] })
+const typography = Inconsolata({
+  weight: "600",
+  subsets: ["latin"],
+  variable: "--font-inconsolata",
+})
 
 export const metadata: Metadata = {
   title: "Kevin Chevallier",
@@ -16,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={typography.variable}>
       <body className={typography.className}>
         <div id="root">
           <div className="app">{children}</div>
